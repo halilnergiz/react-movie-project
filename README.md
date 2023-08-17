@@ -74,7 +74,10 @@ Projeyi başlatmadan önce `src/mocks/scenes.json` dosyasına aşağıdaki gibi 
 
 
 ## Ekran Görüntüleri
-
-![App Screenshots]()
-
-  
+![home](https://github.com/halilnergiz/react-movie-project/assets/73109882/575b3209-c024-48a9-be92-02aafd3d6409)
+![movies](https://github.com/halilnergiz/react-movie-project/assets/73109882/8e80ac92-e4c6-4832-bd76-19496cac9283)
+![series](https://github.com/halilnergiz/react-movie-project/assets/73109882/fac0d6e8-3814-4c96-a128-b11077de31ac)
+![bookmarked](https://github.com/halilnergiz/react-movie-project/assets/73109882/51d0f17f-84af-4eb8-b7b2-0ace89c61b45)
+![search](https://github.com/halilnergiz/react-movie-project/assets/73109882/d9f3bba2-b521-4936-93ca-30e828565384)
+![not-found](https://github.com/halilnergiz/react-movie-project/assets/73109882/39c92528-b822-47a5-b437-3e5ee832c9e5)
+![responsive](https://github.com/halilnergiz/react-movie-project/assets/73109882/0be2154a-0bd7-42df-8132-bc54cc2441ff)
