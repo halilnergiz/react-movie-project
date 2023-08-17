@@ -1,0 +1,114 @@
+.sidebar-container {
+  height: 100%;
+  float: left;
+  padding: 20px;
+
+  @media #{$lg} {
+    height: auto;
+  }
+
+  .sidebar {
+    height: 60%;
+    background-color: $sidebar-bg;
+    border-radius: 8px;
+    padding: 20px;
+
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @media #{$sm} {
+      height: 100%;
+      flex-direction: row;
+    }
+
+    .top {
+      display: flex;
+      flex-direction: column;
+      @media #{$sm} {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .logo {
+        font-size: 38px;
+        padding: 10px;
+        color: rgba(217, 27, 27, 0.872);
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @media #{$sm} {
+          font-size: 68px;
+          
+        }
+       
+      }
+
+      .item-list {
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        list-style: none;
+        margin-top: 10px;
+        @media #{$sm} {
+          flex-direction: row;
+          margin-top: 4px;
+        }
+        .item {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 2rem;
+          color: $text-clr;
+          padding: 24px 20px;
+          font-size: 24px;
+          text-align: center;
+
+          input {
+            display: none;
+          }
+
+          input[type='radio']:checked + label {
+            transform: scale(1.2);
+            color: white;
+          }
+
+          label {
+            color: rgba(189, 189, 189, 0.568);
+            transition: 0.1s;
+
+            svg {
+              cursor: pointer;
+              transition: 0.1s;
+            }
+          }
+        }
+      }
+    }
+
+    .bottom {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .user-profile {
+        font-size: 52px;
+        color: white;
+        margin-top: 34px;
+        text-align: center;
+        @media #{$sm} {
+          margin-top: 4px;
+        }
+        svg {
+          border-radius: 50%;
+          border: 1px solid white;
+        }
+      }
+    }
+  }
+}

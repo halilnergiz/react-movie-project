@@ -1,0 +1,11 @@
+.not-found-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .not-found-content {
+    font-family: $title-font;
+    font-size: 24px;
+    color: $text-clr;
+  }
+}

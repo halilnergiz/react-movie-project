@@ -1,0 +1,26 @@
+@import './abstract/_variables';
+@import './components/_scene-card';
+@import './components/_sidebar';
+@import './pages/_home';
+@import './components/_search';
+@import './pages/_book-marked';
+@import './pages/_movies';
+@import './pages/_series';
+@import './pages/_not-found';
+@import './components/_app';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: $bg;
+  max-height: 100vh;
+  min-width: 320px;
+}
+
+#root {
+  height: 100vh;
+}

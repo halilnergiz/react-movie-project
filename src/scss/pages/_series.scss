@@ -1,0 +1,24 @@
+.series-container {
+  h3 {
+    color: $text-clr;
+    font-family: $title-font;
+  }
+  .series-content {
+    .title {
+      padding: 26px;
+      width: 100%;
+      text-align: start;
+    }
+
+    @media #{$lg} {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    @media #{$xs} {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: max-content;
+    }
+  }
+}

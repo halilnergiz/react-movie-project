@@ -1,0 +1,38 @@
+.search-container {
+  width: 100%;
+  padding: 36px 20px 20px 20px;
+  height: max-content;
+  .search {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+  
+    .search-icon {
+      font-size: 20px;
+      color: white;
+      cursor: pointer;
+      background-color: transparent;
+      border: none;
+      padding: 0 14px;
+    }
+    .search-area {
+      outline: none;
+      border: none;
+      background-color: transparent;
+      width: 220px;
+      color: white;
+      overflow: scroll;
+      &::placeholder {
+        font-size: 16px;
+        display: none;
+      }
+    }
+  }
+}
+
+.result-not-found{
+  color: white;
+  margin: 2rem;
+}
